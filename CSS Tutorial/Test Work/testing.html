@@ -1,0 +1,50 @@
+<!-- <html>
+
+<head>
+    <title>Specificity</title>
+    <link href="testing.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="hello" id="test" style="background-color: yellow;">
+
+
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
+</head>
+
+<body>
+    <section class="overlay">
+        <h1>Guess the right number!</h1>
+        <form action="check.html" method="GET">
+            <label for="guess">Enter a number between 1-10:</label>
+            <br>
+            <input type="number" name="guess" id="guess" required>
+            <br>
+            <input type="submit" id="submission" value="Submit">
+        </form>
+        <input type="number"> and <input type="range">
+    </section>
+    <br>
+
+    <form action="/example.html" method="POST">
+        <label for="guests">Enter # of guests:</label>
+        <input id="guests" name="guests" type="number" min="1" max="4">
+        <input type="submit" value="Submit">
+        <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+        <input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+    </form>
+</body>
+
+</html>

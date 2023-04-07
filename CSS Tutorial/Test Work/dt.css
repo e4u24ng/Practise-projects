@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex-basis: 23%;
+    height: 200px;
+    border: 5px solid rgb(209, 39, 39);
+    background: blue;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+
+
+@media (max-width: 500px) {
+
+    .container-div {
+        width: 100%;
+        display: flex;
+
+
+    }
+
+    .box {
+        flex-basis: 46%;
+    }
+}

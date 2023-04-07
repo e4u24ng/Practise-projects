@@ -1,0 +1,67 @@
+.parent-container {
+    width: 450px;
+    height: 500px;
+    border-color: black;
+    background-color: indianred;
+    border-radius: 45px;
+    margin: auto;
+    display: block;
+    padding-top: 35px;
+}
+
+.answer-area {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(118, 144, 118);
+    border: 1px solid rgb(2, 2, 2);
+    display: block;
+    margin: auto;
+    display: block;
+    outline-color: 2px solid wheat;
+}
+
+.div {
+    padding-top: 20px;
+    margin-left: 25px;
+    display: block;
+}
+
+.table-data {
+    Width: 75px;
+    height: 60px;
+    background-color: dimgray;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 25px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.table-data2 {
+    Width: 75px;
+    height: 60px;
+    background-color: rgb(35, 32, 32);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
+
+.table-data3 {
+    Width: 75px;
+    height: 60px;
+    background-color: rgb(180, 50, 72);
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+}
+
+.table-data4 {
+    Width: 75px;
+    height: 60px;
+    background-color: rgb(184, 184, 37);
+    border-radius: 20px;
+    text-align: center;
+    font-size: larger;
+}

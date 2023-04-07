@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <title>Log in page</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+</head>
+
+<body>
+    <div class="total-container">
+        <div class="image-container">
+            <!-- <div class="container1"> -->
+            <img class="image"
+                src="https://static.theprint.in/wp-content/uploads/2022/10/ANI-20221028222759.jpg?compress=true&quality=80&w=768&dpr=1.0">
+
+            <!-- </div> -->
+        </div>
+
+        <div class="form-container">
+            <!-- <div class="container2"> -->
+
+            <form>
+                <div>
+                    <h1><a href="#" style="color:black">LOGIN</a></h1>
+                </div>
+
+                <div>
+                    <label class="label" for="username"><b>Username</b></label>
+                    <input class="text-input" type="text" required>
+                </div>
+
+
+                <div> <label class="label" for="psw"><b>Password</b></label>
+                    <input class="text-input" type="password" required>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                        Remember me
+                    </label>
+                </div>
+
+                <div>
+                    <button class="button" type="sign in" class="signinbtn">sign in</button>
+                </div>
+
+                <div>
+                    <p>Do you have an account? <a href="#" style="color:red">Sign Up</a>.</p>
+                </div>
+
+                <div class="Login">
+                    <p> <b>Login with social media </b></p>
+                    <span>
+                        <a target="_blank" href="https://web.facebook.com"><img class="socials"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX/AAD/////kZH/VVX/hIT/9/f/w8P/HR3/3Nz/oaH/fX3/RUX/0ND/mpr/9fX//Pz/a2v/jIz/6ur/7+//zMz/dXX/ZGT/Xl7/qqr/vLz/MDD/5eX/Kir/2Nj/tbX/IyP/EBD/Pz//Nzf/WFj/lZX/rq7/t7f/TEz/cHD/v7//pqb/nJz/gID/iIj/Hh7/Q0N6eED3AAAKzklEQVR4nO3d6XaysBYG4GBFqVJRwKk4UMdWa7/7v7sDjoBMIe9mu84579+u1fAsJCEDidCoY1m6rjvm4r0xOOfjfbJomYajh7Es8vIF4f+2HNszJ6fRv7ZIjf+575+2puE5OuFVUAl7htmadPbptES+vo9Td24TXQmJ0Gttm/tlKd2DOTzs5j2Ci4ELdfdwGn/K6a5p74eNBfxWgoXuabzyK/GuWe47O+ydRAq9jexPM/1WrvpTYBULE/beVwDdPd8GCokROuY3knfOfudBGhGA0DIWY7gvzGfDdV5AqLsf5Vq9Kml3pspGRaHVOkEfv6f4w61i+6EmNH9pfWH+xgel+6gi9H6rteyy8fc7FmGvWQvvkq5Ru9CZ+DUCg3SqNpDVhLo7qtcXZHb06hMajVntwCCjnyqvABWE+uGNwxdkNqhwG+WF86HPBAyyXkg/jdLCRZfPF2TZlH0BkBQ6J58VGOTNJBRaLt0raPn4E6kKR0bYO/jcukt+ZSocCaHX4Zbds5b4pZYXmn1uVyRfu9J1amlh6xUewUc+D2UfxpJCa0vfTZLL36bkkFw5ofXhc4ue0yx3F0sJe/hxJkRGpXrGZYTOK9Ux0YzLvN+UEHpDbklmRiUaxmKh8Zo/0Uv6xX3/QqHxqj/RS0ZzVaFRf2deLuOiu1ggtF8dGNzFguomX9h7fWDQncon5gqt161Fo1nnvt3kCfUP7msvmWFe058jtF6lO1icUw4xR7hgGTKsFD/nNTxb2PoivabZqrtfr8f9R74751Rqf5eTzP5iptCgmfUMLub7vTX3bNs5p5eMblb6r7OWrLBHM2SxP86L+jxGtf+8ynq5yRBaR6zschHDwles6kKxzqhtMoQ/UNo5q2a5GbKqQtGQERrwatT/bpUcO6osFOmPYqoQ/7Lmb0oPxlcXfqX2FlOF+IdwUX6YurpQDNNKSRO68HG1aWmfktB/LyfED8tsJYAqQtFNGQt/FuIbig+pOT8Voeg8NxnPQhf9tjaWm7hVEvrPP5cnoYPuE85+pIBqQvH21OgmhdYWBLunI7kgVk0oBsn6NCm0/2Fc98xk1zMpCn23QAjv1pcbescJxVu+0IGoIvE3kkBloUg89wkhvCn8lFxXABAu441TXFit95mXN+n1L8pCccwW6vjh0Y4sECCMv4HHhLs/gCmeA4Mw3lOMCnsEkzDJursW4T7a7EeFU/ySX19+qR1AGHsSI0KdYNGvL/+FD0K4jtzEiLBFsGq7XbYqtW7B1OeTNKHeQPzrRJb5Lsecbt83p2F//Lbvrlazpe9jyl0/no6HcE6x8P4zF2jTTaA/3obvQp1ihFSscoUkRV7Sv78O34U2yaKnrzygRbnO6l7X3IUEY8CiQNgjKfKae6t/E1o089ndPCGiXchM+9YTvgnh3aZLcoUtmjKvuY1g3oQbmmL2ecIFTZnXfCWERPO9yQ53LBOaMm+xY0J8x/CSXCFhYxHmIyakWlaSKyR6Mm7ZR4U9qpYpV0jxmhjJbB4RTjP25lAOp/A6CHYR/lKVwikUo4fQWVMVwipcuXchQef+GlbhZTrxLKSr1FiFonkT9uiWIPIKz/N6odCk+6SQV3heKBUKFz5ZGbzC83BNKHynK4JZ2OydhYSjJdzCcKOCQDhHTty/nZqR/E7yhK1O8zkn5MB7OF0aCF3gvxRpK1rkskNezvQshHZE1YUn5OU09EDYg/5LdSF0wGhsB0Ib+lKqLoQ2zksvEHqIHcjuURdi35GNQIgd01MW6j70eraBEFqVqgvBw5odS4DfaJSFNvRyxF4XFnZRvrJwDr0csdSFjt1sRlk4hV6OEIEQW3cpC9HDxIHQh/5DZSH6ddwLjNAoC9Hf6swFeBJPWYie5WsJ8CSeshC9y9ZCgOdkVIU6egXvRIBnt1WF8BmUowCv61YV2ujB6YYAD0OpCuHflDUFeJpSVWhC+3JBOgI8oq8q3KHn+TpigP2HqsLtywvl1wQ/Yum6M/Cx14MXNudmNLkfxrqbj1g2jcEQPs8HF8660XzlLmQHF50euDAR5lF98b8hpF22838hfTqCdnEZv3AgoFM9T+EXbgTtIk9+4UGAxycT4RcuBHiMORF+4RQ91pYIv9D9rxcaQkd3OWPhFzpCJ91jnV+oC4t0b0t2oR8ISVdbswtXusCuX0mGXTiyBHpKMh524SYQej5hAexCM1xtQlmZsgvD9TTwDWmi4RZ2Q6FFuLyUXdhxwpV7NN9WXsIt3FqhED5VEAm3sHVefWmQfU/CLpyZZ6FOOKDILOzbl5Xs8M2vHmEWhvtjhEKK7SKu4RX6u6vQo9uXnFe4N69C7NLqWHiFw95NOKH6wJJZeP7E8iyck72asgpni7sQv4nZLazCy97JF+HRJyqEVXiZnr0I8TsjX8MpbE8jQvh6uVs4hV+9qPBAVAqncKhFhVRbxXAK3ZhQI+pfcAq1uBD7Xck9jMJTQmjht0wMwyi8bQIvaIvjE45ve+HdhTQDw3zC+060dyHNtgNswq/7SQWPPfdIhtzYhMf7ho0PIUk/mEs4e2xfHNn7kmK4hkvYeOxbHhEaBC+nTMLPyNa30T1oCQ4hYxL+RjaGjQoN/JG/PMLP6Kblsb2gNz66LB5hP7q3b0zowQ8iYxEuY/vOx/dkh69aYBGOYpsXx4XgD0qZhPEPBBInB6DX03IIf+OlJIQWuDplELYTB2okT/BwfWhxDMLkd0lJIXgysX7hOnn82dNZQQZ0hL92YfvpeLknoQWtbGoXDp428n8+0cpGTmLULdw/nyGZcu4a8tCumoXtlBPe0s7Oe/dhRdYsTDs9K03Yw21RV6+wm3bOaeoJjwZs6UKtQj/1eLD0c0hhW7jVKhyklpIuhG08VKewm37+WcZpuTZozKZOYcbpYFlnOoNOLKlRmHUUaOa53FPIVE19wkbWqUSZQv3DB5S7zhMiRxSGmQdLZZ8ebyNqm69WdlzgzrDj7A//s4WagRjm/2tn5s8H/P9L0k7JLSHUDPR+P1SZ5Z3uliekPQgGmNxTJHOFVLP74KSfqV5OSHcsBC5/BYd+FwitLdV6MFQuCxCrCzV9S7dEGpHPbdG59EXCgPjKd7EYWCwMiK/7LP7tis9XLBZqFnpLUVx+ShwgWUJIfXxY9eQ3EzJCzYBPLAIyK3dcdDmhZoy5PU/ZlzwPu6RQM4Y+NymeUdq4mopQszcvVaV2cvdJqyTUejvS/SXksknOMCGEmma+Sm+qPS1s56sJNY/wvBaJpEy/oISa/s7/S/UH6eOiGGHwSx35vMB/RX0JVaHmbDg7G+2O1C+0klDTfvha/+5W/qz2CkLN+GC6jb8lX2OUhZpuUu40kZX9Tq6KUREGzf+U8kzttPjH8o08Qhjcx1p2ebrnu6JPQRgO+9f1OP695Q350gmDxvG3jt/qrL+TeEnDCjXLbVIb28OdfAuBEwaPo/tBaWx3fipVoEBhcB/nE/wK+EtmG1fVhxAGRntK8YHmauKpPH+3IIRaiERvpt43S4wUlglIGMbtrzADHf5svAXxNKgwaCG3wzfVDmR7/30sPQZTJlBhEHsx6FevXGfj0wTK0/DCIHZruxnJT+f8jQfbVuaKiuohEAaxPPPnKHEvV6PNjwmpOZ9DIwyjO54xPwz/5dc+y+7wMDc8h0YXhk54iaXrumNuG52nNDeLeS/4K67WTM9/AAfJrAed4uStAAAAAElFTkSuQmCC">
+                        </a>
+                    </span>
+
+                    <span>
+
+                        <a target="_blank" href="https://twitter.com"><img class="socials"
+                                src="https://icon2.cleanpng.com/20180429/vcw/kisspng-logo-computer-icons-clip-art-5ae5bc1bf3dd67.7819173115250053399989.jpg">
+                        </a>
+                    </span>
+
+                    <span>
+                        <a target="_blank" href="https://instagram.com">
+                            <img class=" socials"
+                                src="https://simg.nicepng.com/png/small/1011-10110672_logo-instagram-logo-instagram-hitam-putih-png-logo.png">
+                        </a>
+                    </span>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+    </div>
+
+
+    </div>
+
+</body>
+
+</html>

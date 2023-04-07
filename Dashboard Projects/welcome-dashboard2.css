@@ -1,0 +1,399 @@
+body {
+    background-color: #181837;
+    display: flex;
+    width: 100%;
+}
+
+.outer-container {
+    background-color: #181837;
+    width: 100%;
+    /* min-height: 100vh; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 84vw;
+    height: 70px;
+    background-color: #181837;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 5px 5px #1f1f2e;
+}
+
+.header-text {
+    font-size: 23.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-left: 20px;
+    /* display: flex; */
+}
+
+.header-container {
+    display: flex;
+    justify-content: flex-start;
+    float: right;
+}
+
+.img {
+    width: 35px;
+    height: 35px;
+    border-radius: 45%;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.span-number {
+    text-decoration-line: none;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.card-span {
+    color: #66ff33;
+    font-size: 40px;
+}
+
+.span-div {
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+    justify-content: center;
+    margin-left: 15px;
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+
+.span-text {
+    font-size: larger;
+    display: flex;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    justify-content: center;
+    text-decoration: none;
+    /* padding-left: 5px; */
+}
+
+aside {
+    width: 15%;
+    height: 200vh;
+    background-color: #181837;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    margin-right: 5px;
+    box-shadow: 2px 5px 5px #1f1f2e;
+}
+
+.sidebar-name {
+    display: flex;
+}
+
+.nav-text {
+    font-size: 23.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9a2d2d;
+    margin: 15px 20px 0 5px;
+    padding-left: 5px;
+}
+
+.list {
+    padding-top: 0;
+    height: 100vh;
+    margin: 10px 5px 5px 0px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 5px;
+    padding-top: 30px;
+}
+
+.icon-details {
+    justify-items: center;
+    display: flex;
+    background-color: #9a2d2d;
+    justify-content: flex-end;
+    margin-left: 40px;
+}
+
+.navbar-text {
+    padding-left: 9px;
+}
+
+.icon {
+    color: aliceblue;
+    margin-left: 10px;
+    text-decoration-line: none;
+}
+
+.main-container {
+    width: 100%;
+    justify-content: space-around;
+    /* padding-left: 21%; */
+    /* float: right; */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.main-div {
+    display: inline-block;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.card {
+    height: 150px;
+    width: 230px;
+    background-color: #9a2d2d;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    text-decoration: none;
+    box-shadow: 0 4px 2px 03px rgba(73, 9, 51, 0.15),
+        0 6px 30px 0 rgba(71, 6, 31, 0.943);
+}
+
+.card-text {
+    font-size: small;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.table-top {
+    border-radius: 13px;
+    padding-top: 20px;
+    margin: 30px 0 0 15px;
+    width: 65%;
+    background: white;
+    background-color: #1f1f3c;
+    display: inline-block;
+}
+
+.recent {
+    font-size: 18px;
+    color: aliceblue;
+    padding-left: 30px;
+    text-decoration-line: none;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background: #9a2d2d;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    padding-right: 10px;
+    margin-right: 20px;
+    outline: unset;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.hr-container {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    color: #383584;
+}
+
+.table-div {
+    width: 100%;
+    height: 460px;
+    background-color: #1f1f3c;
+    border-radius: 20px;
+}
+
+th {
+    font-size: 25px;
+    color: rgb(40, 3, 40);
+}
+
+.tdata-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tdata {
+    /* padding: 5px 90px 0 45px; */
+    color: aliceblue;
+    background: #1f1f3c;
+}
+
+.tdata1 {
+    width: 30%;
+    color: aliceblue;
+    background: #1f1f3c;
+    padding-left: 15px;
+}
+
+.tdata2 {
+    width: 30%;
+    color: aliceblue;
+    background: #1f1f3c;
+}
+
+.tdata3 {
+    width: 30%;
+    color: aliceblue;
+    background: #1f1f3c;
+}
+
+.tr-info {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.td-img {
+    width: 12px;
+    height: 12px;
+    border-radius: 45%;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.td-text {
+    font-size: 15px;
+    color: white;
+    width: 33.3%;
+    /* padding-left: 15px; */
+
+}
+
+.td-text3 {
+    font-size: 15px;
+    color: white;
+    margin-left: 0;
+}
+
+
+.td-text1 {
+    font-size: 15px;
+    color: white;
+    margin-left: 0;
+    width: 33.3%;
+}
+
+.hrTop {
+    border-top: 2px solid #fff
+}
+
+.hrDown {
+    border-bottom: 2px solid #fff
+}
+
+/* .hrTop {
+    color: rgba(240, 218, 218, 0.588);
+}
+
+.hrDown {
+    color: rgba(240, 218, 218, 0.588);
+} */
+
+.td-text2 {
+    font-size: 15px;
+    color: rgba(240, 218, 218, 0.588);
+    margin-left: 0;
+}
+
+table {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.table-top1 {
+    border-radius: 13px;
+    padding-top: 20px;
+    margin: 30px 10px 0 0;
+    width: 100%;
+    background: white;
+    background-color: #1f1f3c;
+    display: inline-block;
+}
+
+.table-div1 {
+    /* width: 40%; */
+    height: 50px;
+    background-color: #1f1f3c;
+    border-radius: 20px;
+    padding: 0;
+}
+
+.img1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 45%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header-container1 {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+}
+
+.icon1 {
+    color: #9a2d2d;
+    margin-left: 10px;
+    text-decoration-line: none;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    justify-items: center;
+}
+
+.table2 {
+    display: flex;
+    width: 31%;
+    float: right;
+}
+
+.recent1 {
+    font-size: 18px;
+    color: aliceblue;
+    padding-left: 15px;
+    text-decoration-line: none;
+}

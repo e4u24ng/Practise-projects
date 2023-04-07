@@ -1,0 +1,304 @@
+body {
+    background-color: black;
+}
+
+
+.logo {
+    font-size: 4em;
+    text-align: left;
+    display: inline;
+    color: rgb(93, 208, 208);
+    margin-right: 30px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+.description-container {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 90px;
+    height: auto;
+}
+
+.information-text {
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+
+.information-area {
+    margin-bottom: 16px;
+    font-family: inherit;
+    line-height: 1.5;
+    color: white;
+    font-size: 3em;
+
+}
+
+.menu-links {
+    float: right;
+}
+
+.nav-button {
+    display: inline;
+    color: white;
+    margin-right: 30px;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.li-class {
+    display: inline;
+}
+
+#direction {
+    float: right;
+}
+
+#generator {
+    color: rgb(93, 208, 208);
+}
+
+.start-button {
+    height: 45px;
+    width: 227px;
+    background-color: darkturquoise;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+.price-table {
+    width: 100%;
+    height: 120px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.price-text {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+}
+
+.price-info {
+    color: white;
+    text-align: center;
+    font-size: 19.5px;
+    display: block;
+}
+
+.pricing-table {
+    background-color: black;
+    text-align: center;
+}
+
+.price-tittle {
+    color: white;
+    line-height: 1.5em;
+    font-size: 25px;
+    margin-bottom: 12px;
+    padding-top: 16px;
+}
+
+.price-list {
+    width: 350px;
+    height: 525px;
+    background-color: #4c4f50;
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+.freetrail-button {
+    color: purple;
+}
+
+.list-info {
+    color: #d500f9;
+    line-height: 1.5em;
+    padding-top: 16px;
+    font-size: 40px;
+
+}
+
+.card-info {
+    line-height: 1.5em;
+    padding-top: 16px;
+    font-size: 40px;
+    color: aqua;
+
+}
+
+.list-info1 {
+    color: #78909C;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #d500f9;
+    height: 45px;
+    width: 188px;
+    font-size: 16px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: aqua;
+    height: 45px;
+    width: 188px;
+    font-size: 16px;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.main-box {
+    margin-top: 30px;
+    margin-right: 45px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.box-img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.box-text {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 16px;
+    line-height: 1em;
+}
+
+.box-text1 {
+    color: #78909C;
+    font-size: 20px;
+    margin-bottom: 16px;
+    line-height: 1em;
+}
+
+
+.box {
+    display: inline-block !important;
+    text-align: center;
+    padding: 35px;
+    margin: 35px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.info-text {
+    font-size: 45px;
+    text-align: center;
+    color: white;
+
+}
+
+.text {
+    font-size: 25px;
+    text-align: center;
+    color: #78909C;
+}
+
+.info {
+    margin-top: 30px;
+    margin-right: 45px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.info-text1 {
+    display: inline-block !important;
+    text-align: center;
+    /* padding: 35px; */
+    /* margin: 35px; */
+    color: white;
+}
+
+#in-text {
+    color: white !important;
+    font-size: 25px !important;
+
+}
+
+.frequent-questions {
+    display: inline-block;
+    text-align: center;
+    /* width: 80%; */
+    /* margin: auto; */
+}
+
+/* footer {
+    line-height: 1.5;
+    color: #CFD8DC;
+    padding-top: 95px;
+    font-size: 16px;
+    width: 80%
+} */
+
+.s-media {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.socials {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+.col2-info {
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 16px;
+    line-height: 2em;
+    padding-top: 8px;
+}
+
+.col-display {
+    display: inline-block;
+    margin: 40px;
+    text-align: left;
+
+}
+
+footer {
+    /* text-align: center;
+    display: inline-table;
+    width: 100%; */
+    line-height: 1.5;
+    color: #CFD8DC;
+    padding-top: 95px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-table;
+    width: 100%;
+}
+
+.copyright-text {
+    color: #78909C;
+    padding-right: 15px;
+    font-size: 15px;
+    text-align: center
+}

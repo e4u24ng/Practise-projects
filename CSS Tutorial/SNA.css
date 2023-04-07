@@ -1,0 +1,72 @@
+.h1 {
+    margin: auto;
+    text-align: center
+}
+
+.text {
+    margin: auto;
+    display: block;
+    height: 30px;
+    width: 400px;
+}
+
+.div {
+    margin-right: 80px;
+    display: block;
+}
+
+.table-data1 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: aquamarine;
+}
+
+.table-data2 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: darkorange;
+}
+
+.table-data3 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: aqua;
+}
+
+.table-data4 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: mediumspringgreen;
+}
+
+.table-data5 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: mediumorchid;
+}
+
+.table-data6 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: mediumpurple;
+}
+
+.table-data7 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: mediumslateblue;
+}
+
+.table-data8 {
+    padding: 20px 200px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 30px;
+    background-color: gold
+}

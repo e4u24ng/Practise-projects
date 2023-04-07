@@ -1,0 +1,260 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(216, 225, 241);
+}
+
+.h1 {
+    color: darkgreen;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.input {
+    height: 20px;
+    width: 200px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 10px;
+    background-color: beige;
+}
+
+.icon {
+    margin-right: 9px;
+}
+
+.search {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #6060e4;
+    width: 45px;
+    height: 35px;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+.tag {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    padding-left: 12px;
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45%;
+    cursor: pointer;
+}
+
+.content-container {
+    height: 100vh;
+    width: 100%;
+}
+
+.side-navbar {
+    width: 20%;
+    height: 100vh;
+    background: white;
+    padding-top: 5px;
+    display: inline-block;
+}
+
+ul {
+    padding-inline-start: 45px;
+    background-color: white;
+}
+
+.navbar-span {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+
+.navbar-text:hover {
+    background-color: #6060e4;
+    color: white;
+
+}
+
+/* .navbar-text :hover {
+    color: white;
+} */
+
+.navbar-text {
+    font-size: 30px;
+    list-style-type: none;
+    /* height: 10vh; */
+    /* color: black; */
+    text-decoration: none;
+    margin: 25px 5px 0px -21px;
+    padding-left: 5px;
+    /* background: white; */
+
+}
+
+
+.container {
+    width: 80%;
+    height: 500px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.item {
+    font-size: x-large;
+    width: 15%;
+    height: 15%;
+    font-weight: 700;
+    padding: 1em;
+    color: white;
+    background-color: #6060e4;
+    border-radius: 30px;
+    text-align: initial;
+}
+
+.container-icon {
+    font-size: -webkit-xxx-large;
+    background-color: #6060e4;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.container-text {
+    text-align: -webkit-auto;
+    font-size: small;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    /* height: 200px; */
+    justify-content: space-around;
+    /* float: right; */
+    /* gap: 3em; */
+    /* margin-left: 60px; */
+}
+
+.card {
+    height: 150px;
+    width: 200px;
+    background-color: #6060e4;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-details {
+    justify-items: center;
+    display: flex;
+    background-color: #6060e4;
+    justify-content: flex-end;
+    margin-left: 40px;
+
+}
+
+.card-text {
+    font-size: small;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+}
+
+table {
+    width: 90%;
+    border-radius: 23px;
+    margin-top: 50px;
+    float: right;
+    background: white;
+    margin-right: 50px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background: #6060e4;
+    border-radius: 5px;
+    color: white;
+    float: right;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+
+hr {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    color: #6060e4;
+    /* display: block; */
+}
+
+.recent {
+    font-size: 25px;
+    color: #6060e4;
+    padding-left: 30px;
+}
+
+.table-top {
+    border-radius: 10px;
+    padding-top: 20px;
+    /* margin: 20px; */
+    width: 85%;
+    background: white;
+    margin: 90px;
+}
+
+.main-container {
+    width: 80%;
+    float: right;
+    justify-content: space-around;
+}
+
+th {
+    font-size: 25px;
+    color: #6060e4;
+}
+
+td {
+    padding: 10px;
+}
+
+.table-div {
+    width: 100%;
+    height: 500px;
+}
+
+.published {
+    background: #00b300;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 15px 5px 15px;
+    margin-right: -60px;
+}

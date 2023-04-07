@@ -1,0 +1,107 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.login {
+    border-bottom: 3px solid rgb(188, 57, 79);
+    width: 107px;
+}
+
+.image-container {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.form-container {
+    display: inline-block;
+    text-align: left;
+    padding-left: 95px;
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+}
+
+.font-container {
+    display: inline-block;
+    height: 100vh;
+    width: 50%;
+}
+
+.label {
+    line-height: 1.2;
+    text-align: center;
+}
+
+.text-input {
+    height: 50px;
+    width: 80%;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    border: 0.9px solid darkgrey;
+    cursor: text;
+}
+
+.button {
+    font-size: initial;
+    width: 75%;
+    height: 50px;
+    background-color: rgb(188, 57, 79);
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    line-height: 1.5
+}
+
+.log-in {
+    text-align: center;
+}
+
+.socials {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border-radius: 45%
+}
+
+.icon:hover {
+    background-color: rgb(188, 57, 79);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-container {
+    display: flex;
+
+
+}

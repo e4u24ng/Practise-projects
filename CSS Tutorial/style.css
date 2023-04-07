@@ -1,0 +1,35 @@
+.hello {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+
+.sample {
+    background-color: blue;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.sample:hover {
+    background-color: yellow;
+}
+
+
+
+#test {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+.name:focus {
+    /* border: 3px solid red; */
+    outline: 3px solid red;
+}
+
+.hello:focus{
+    background-color: black;
+}
